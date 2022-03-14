@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A799C779365B4E9F469821 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* DefaultEditor.ini */; };
+		91F6DDE87770C5A225363F8F /* DefaultEditorPerProjectUserSettings.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditorPerProjectUserSettings.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultInput.ini */; };
+		909DE435722D838FB9BBCC10 /* MidtermAssignment.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F7467CBEC498E0D06675D698 /* MidtermAssignment.Build.cs */; };
+		861F9D7EE6D5C612A2B636E5 /* MidtermAssignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7AAE62B277027FF7109EC78 /* MidtermAssignment.cpp */; };
+		EC5E64005393B30D4A402975 /* MidtermAssignment.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* MidtermAssignment.Target.cs */; };
+		1A0C466F5D75E4D8AD6765D5 /* MidtermAssignment.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* MidtermAssignment.uproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EF1EB4E659A8BF798C986A9 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditorPerProjectUserSettings.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditorPerProjectUserSettings.ini"; path = "../../Config/DefaultEditorPerProjectUserSettings.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		F7467CBEC498E0D06675D698 /* MidtermAssignment.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MidtermAssignment.Build.cs"; path = "../Source/MidtermAssignment.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D7AAE62B277027FF7109EC78 /* MidtermAssignment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MidtermAssignment.cpp"; path = "../Source/MidtermAssignment.cpp"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B /* MidtermAssignment.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MidtermAssignment.Target.cs"; path = "../Source/MidtermAssignment.Target.cs"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 /* MidtermAssignment.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MidtermAssignment.uproject"; path = "../../MidtermAssignment.uproject"; sourceTree = SOURCE_ROOT; };
+		C8430AB79CAB67D3353D2096 /* MidtermAssignment */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MidtermAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84849FB9DC0244FDC915E3C9 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861F9D7EE6D5C612A2B636E5 /* MidtermAssignment.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	5393C0E9965D0AFFE061C98E /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		7EF3C75F651A1F8BFB929B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF715BD91E007C142DC221B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5BCDEE2532206AEFDE6501;
+			remoteInfo = "MidtermAssignment_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		F655ADE853442CC3AB52B84B = {
+			isa = PBXGroup;
+			children = (
+				BE9CF09B19BCE1F1CA414435 /* Config */,
+				20024C59BC6993823CA8DF8A /* Intermediate */,
+				F519DBC82B7C343B37F88500 /* MidtermAssignment.uproject */,
+				E5BB21D3B4B0DB8B0FAF77D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9CF09B19BCE1F1CA414435 = {
+			isa = PBXGroup;
+			children = (
+				6EF1EB4E659A8BF798C986A9 /* DefaultEditor.ini */,
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditorPerProjectUserSettings.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Config";
+			sourceTree = "<absolute>";
+		};
+		20024C59BC6993823CA8DF8A = {
+			isa = PBXGroup;
+			children = (
+				CB81C5EDAF72D16A29A1E4DE /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		CB81C5EDAF72D16A29A1E4DE = {
+			isa = PBXGroup;
+			children = (
+				F7467CBEC498E0D06675D698 /* MidtermAssignment.Build.cs */,
+				D7AAE62B277027FF7109EC78 /* MidtermAssignment.cpp */,
+				CF746C0FF4BEC24D1E04EB4B /* MidtermAssignment.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		E5BB21D3B4B0DB8B0FAF77D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8430AB79CAB67D3353D2096 /* MidtermAssignment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		9A5BCDEE2532206AEFDE6501 /* MidtermAssignment_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/MidtermAssignment.uproject\"";
+			buildConfigurationList = F30EDBF5775B1E1F19862D0A /* Build configuration list for PBXLegacyTarget "MidtermAssignment_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.27/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.27";
+			dependencies = (
+			);
+			name = "MidtermAssignment_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "MidtermAssignment_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6A1C57D24B43511BC64CAF53 /* MidtermAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F04A8E3F5BA6D411097E61A /* Build configuration list for PBXNativeTarget "MidtermAssignment" */;
+			buildPhases = (
+				5393C0E9965D0AFFE061C98E /* Embed App Extensions */, 
+				02590C98F61C3646DDD364CF /* Shell Script */, 
+			);
+			dependencies = (
+			);
+			name = "MidtermAssignment";
+			passBuildSettingsInEnvironment = 1;
+			productName = "MidtermAssignment";
+			productReference = "C8430AB79CAB67D3353D2096";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		CD6FE087BD409440D331C409 /* MidtermAssignment_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3165C9723133E9DE09C48E /* Build configuration list for PBXNativeTarget "MidtermAssignment_Index" */;
+			buildPhases = (
+				84849FB9DC0244FDC915E3C9 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "MidtermAssignment_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "MidtermAssignment_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF715BD91E007C142DC221B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					6A1C57D24B43511BC64CAF53 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5198ACAF49242DC149D2A846 /* Build configuration list for PBXProject "MidtermAssignment" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = F655ADE853442CC3AB52B84B;
+			productRefGroup = E5BB21D3B4B0DB8B0FAF77D9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			6A1C57D24B43511BC64CAF53 /* MidtermAssignment */,
+			9A5BCDEE2532206AEFDE6501 /* MidtermAssignment_Build */,
+			CD6FE087BD409440D331C409 /* MidtermAssignment_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A572E7A90DBB81CFD7588021 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		2784A165DA411594BA64B362 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		097C3ED7FAAB5456475DDF07 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		EFF2F5B2A577F922BA10B782 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "MidtermAssignment";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		B4D4F03A6B01F1FDAFD13C43 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "MidtermAssignment";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		FE543AADBBAA5FB04E963FE5 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "MidtermAssignment";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		F5AB06ADDE9DEC7F2FF14324 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "MidtermAssignment";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		86D342C0590CA9090203855A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "MidtermAssignment";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		5C0321FF672C95F76237B6DD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "MidtermAssignment";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		7561F125DFFAB6AAD9EBA903 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "MidtermAssignment";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		FB86A4EDDCAF6910AD8F710B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "MidtermAssignment";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		CED10F57AE2E139DA69DEE87 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "MidtermAssignment";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = E3JS563PF2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harshit Maheshkumar Modi (86LG4QJN5L)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "1f0f29ab-d6ad-4552-9086-ff5ce3576025";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
+				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.27/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5198ACAF49242DC149D2A846 /* Build configuration list for PBXProject "MidtermAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A572E7A90DBB81CFD7588021 /* "DebugGame" */,
+				2784A165DA411594BA64B362 /* "Development" */,
+				097C3ED7FAAB5456475DDF07 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F30EDBF5775B1E1F19862D0A /* Build configuration list for PBXLegacyTarget "MidtermAssignment_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AB06ADDE9DEC7F2FF14324 /* "DebugGame" */,
+				86D342C0590CA9090203855A /* "Development" */,
+				5C0321FF672C95F76237B6DD /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		8F04A8E3F5BA6D411097E61A /* Build configuration list for PBXNativeTarget "MidtermAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF2F5B2A577F922BA10B782 /* "DebugGame" */,
+				B4D4F03A6B01F1FDAFD13C43 /* "Development" */,
+				FE543AADBBAA5FB04E963FE5 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		4D3165C9723133E9DE09C48E /* Build configuration list for PBXNativeTarget "MidtermAssignment_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7561F125DFFAB6AAD9EBA903 /* "DebugGame" */,
+				FB86A4EDDCAF6910AD8F710B /* "Development" */,
+				CED10F57AE2E139DA69DEE87 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+/* Begin PBXShellScriptBuildPhase section */
+		02590C98F61C3646DDD364CF /* Sign Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			name = "Sign Manual Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nIFS=$'\\n'\n\nif [ $PLATFORM_NAME = iphoneos ] || [ $PLATFORM_NAME = tvos ]; then \n\tFRAMEWORK_DIR=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/Frameworks\n\tfor FRAMEWORK in ${FRAMEWORK_DIR}/*.framework; do\n\t\t[ -d \"${FRAMEWORK}\" ] || continue\n\t\techo Codesigning ${FRAMEWORK}\n\t\tcodesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --verbose --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${FRAMEWORK}\"\n\tdone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+	};
+	rootObject = CF715BD91E007C142DC221B6 /* Project object */;
+}
