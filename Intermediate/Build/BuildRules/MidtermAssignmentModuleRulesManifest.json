@@ -1,7 +1,7 @@
 {
 	"SourceFiles": [
-		"/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Source/MidtermAssignment.Build.cs",
-		"/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Source/MidtermAssignment.Target.cs"
+		"/Users/akshay/Documents/MidtermAssignment/Intermediate/Source/MidtermAssignment.Build.cs",
+		"/Users/akshay/Documents/MidtermAssignment/Intermediate/Source/MidtermAssignment.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

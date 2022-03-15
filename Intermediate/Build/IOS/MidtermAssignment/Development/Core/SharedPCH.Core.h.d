@@ -1,5 +1,5 @@
-/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Build/IOS/MidtermAssignment/Development/Core/SharedPCH.Core.h.gch: \
-  /Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Build/IOS/MidtermAssignment/Development/Core/SharedPCH.Core.h \
+/Users/akshay/Documents/MidtermAssignment/Intermediate/Build/IOS/MidtermAssignment/Development/Core/SharedPCH.Core.h.gch: \
+  /Users/akshay/Documents/MidtermAssignment/Intermediate/Build/IOS/MidtermAssignment/Development/Core/SharedPCH.Core.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/CoreSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/HAL/Platform.h \

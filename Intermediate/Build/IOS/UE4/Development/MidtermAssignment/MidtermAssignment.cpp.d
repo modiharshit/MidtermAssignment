@@ -1,4 +1,4 @@
-/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Build/IOS/UE4/Development/MidtermAssignment/MidtermAssignment.cpp.o: \
+/Users/akshay/Documents/MidtermAssignment/Intermediate/Build/IOS/UE4/Development/MidtermAssignment/MidtermAssignment.cpp.o: \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/Misc/SlowTaskStack.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/Misc/FeedbackContext.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/Misc/OutputDeviceRedirector.h \
@@ -345,7 +345,7 @@
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/HAL/Platform.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.27/Engine/Source/Runtime/Core/Public/CoreSharedPCH.h \
-  /Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Build/IOS/MidtermAssignment/Development/Core/SharedPCH.Core.h \
+  /Users/akshay/Documents/MidtermAssignment/Intermediate/Build/IOS/MidtermAssignment/Development/Core/SharedPCH.Core.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stddef.h \
@@ -1401,5 +1401,5 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/c++/v1/utility \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/c++/v1/cstring \
-  /Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Source/MidtermAssignment.cpp \
-  /Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Build/IOS/UE4/Development/MidtermAssignment/Definitions.MidtermAssignment.h
+  /Users/akshay/Documents/MidtermAssignment/Intermediate/Source/MidtermAssignment.cpp \
+  /Users/akshay/Documents/MidtermAssignment/Intermediate/Build/IOS/UE4/Development/MidtermAssignment/Definitions.MidtermAssignment.h

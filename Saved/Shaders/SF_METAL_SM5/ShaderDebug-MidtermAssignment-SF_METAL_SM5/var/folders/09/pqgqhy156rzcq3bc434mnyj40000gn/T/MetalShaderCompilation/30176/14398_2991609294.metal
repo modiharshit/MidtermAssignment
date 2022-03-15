@@ -1,0 +1,290 @@
+
+
+#pragma clang diagnostic ignored "-Wmissing-prototypes"
+#pragma clang diagnostic ignored "-Wmissing-braces"
+
+#include <metal_stdlib>
+#include <simd/simd.h>
+
+using namespace metal;
+
+template<typename T, size_t Num>
+struct spvUnsafeArray
+{
+    T elements[Num ? Num : 1];
+    
+    thread T& operator [] (size_t pos) thread
+    {
+        return elements[pos];
+    }
+    constexpr const thread T& operator [] (size_t pos) const thread
+    {
+        return elements[pos];
+    }
+    
+    device T& operator [] (size_t pos) device
+    {
+        return elements[pos];
+    }
+    constexpr const device T& operator [] (size_t pos) const device
+    {
+        return elements[pos];
+    }
+    
+    constexpr const constant T& operator [] (size_t pos) const constant
+    {
+        return elements[pos];
+    }
+    
+    threadgroup T& operator [] (size_t pos) threadgroup
+    {
+        return elements[pos];
+    }
+    constexpr const threadgroup T& operator [] (size_t pos) const threadgroup
+    {
+        return elements[pos];
+    }
+};
+
+struct type_View
+{
+    char _m0_pad[448];
+    float4x4 View_ViewToClip;
+    char _m1_pad[192];
+    float4x4 View_SVPositionToTranslatedWorld;
+    char _m2_pad[272];
+    float4 View_InvDeviceZToWorldZTransform;
+    float4 View_ScreenPositionScaleBias;
+    char _m4_pad[48];
+    float3 View_PreViewTranslation;
+    char _m5_pad[928];
+    float4 View_ViewRectMin;
+    float4 View_ViewSizeAndInvSize;
+    char _m7_pad[68];
+    float View_PreExposure;
+    float4 View_DiffuseOverrideParameter;
+    float4 View_SpecularOverrideParameter;
+    float4 View_NormalOverrideParameter;
+    float2 View_RoughnessOverrideParameter;
+    char _m12_pad[8];
+    float View_OutOfBoundsMask;
+    char _m13_pad[48];
+    float View_MaterialTextureMipBias;
+    char _m14_pad[28];
+    float View_UnlitViewmodeMask;
+    char _m15_pad[612];
+    float View_RenderingReflectionCaptureMask;
+    char _m16_pad[48];
+    float4 View_SkyLightColor;
+    char _m17_pad[124];
+    float View_ShowDecalsMask;
+    char _m18_pad[184];
+    float View_bCheckerboardSubsurfaceProfileRendering;
+    char _m19_pad[48];
+    float3 View_VolumetricLightmapWorldToUVScale;
+    float3 View_VolumetricLightmapWorldToUVAdd;
+    packed_float3 View_VolumetricLightmapIndirectionTextureSize;
+    float View_VolumetricLightmapBrickSize;
+    float3 View_VolumetricLightmapBrickTexelSize;
+};
+
+struct type_StructuredBuffer_v4float
+{
+    spvUnsafeArray<float4, 1> _m0;
+};
+
+struct type_Primitive
+{
+    char _m0_pad[80];
+    float4 Primitive_ObjectWorldPositionAndRadius;
+    char _m1_pad[208];
+    float3 Primitive_ObjectBounds;
+    float Primitive_DecalReceiverMask;
+    float Primitive_PerObjectGBufferData;
+    float Primitive_UseVolumetricLightmapShadowFromStationaryLights;
+};
+
+struct type_Material
+{
+    spvUnsafeArray<float4, 2> Material_VectorExpressions;
+    spvUnsafeArray<float4, 1> Material_ScalarExpressions;
+};
+
+constant float3 _150 = {};
+
+struct MainPS_out
+{
+    float4 out_var_SV_Target0 [[color(0)]];
+    float4 out_var_SV_Target1 [[color(1)]];
+    float4 out_var_SV_Target2 [[color(2)]];
+    float4 out_var_SV_Target3 [[color(3)]];
+    float4 out_var_SV_Target4 [[color(4)]];
+    float4 out_var_SV_Target5 [[color(5)]];
+};
+
+struct MainPS_in
+{
+    float4 in_var_TEXCOORD10 [[user(locn0)]];
+    float4 in_var_TEXCOORD11 [[user(locn1)]];
+    float4 in_var_TEXCOORD1_0 [[user(locn2)]];
+};
+
+// Returns buffer coords clamped to storage buffer size
+#define spvStorageBufferCoords(idx, sizes, type, coord) metal::min((coord), (sizes[(idx)*2] / sizeof(type)) - 1)
+
+fragment MainPS_out Main_0000383e_b25055ce(MainPS_in in [[stage_in]], constant uint* spvBufferSizeConstants [[buffer(4)]], const device type_StructuredBuffer_v4float& View_SkyIrradianceEnvironmentMap [[buffer(0)]], constant type_View& View [[buffer(1)]], constant type_Primitive& Primitive [[buffer(2)]], constant type_Material& Material [[buffer(3)]], texture3d<uint> View_VolumetricLightmapIndirectionTexture [[texture(0)]], texture3d<float> View_DirectionalLightShadowingBrickTexture [[texture(1)]], texture2d<float> OpaqueBasePass_DBufferATexture [[texture(2)]], texture2d<float> OpaqueBasePass_DBufferBTexture [[texture(3)]], texture2d<float> OpaqueBasePass_DBufferCTexture [[texture(4)]], texture2d<float> Material_Texture2D_0 [[texture(5)]], texture2d<float> Material_Texture2D_1 [[texture(6)]], sampler View_SharedBilinearClampedSampler [[sampler(0)]], sampler OpaqueBasePass_DBufferATextureSampler [[sampler(1)]], sampler Material_Texture2D_0Sampler [[sampler(2)]], sampler Material_Texture2D_1Sampler [[sampler(3)]], float4 gl_FragCoord [[position]])
+{
+    MainPS_out out = {};
+    spvUnsafeArray<float4, 1> in_var_TEXCOORD1 = {};
+    in_var_TEXCOORD1[0] = in.in_var_TEXCOORD1_0;
+    constant uint& View_SkyIrradianceEnvironmentMapBufferSize = spvBufferSizeConstants[0];
+    float4 _208 = float4((((gl_FragCoord.xy - View.View_ViewRectMin.xy) * View.View_ViewSizeAndInvSize.zw) - float2(0.5)) * float2(2.0, -2.0), gl_FragCoord.z, 1.0) * (1.0 / gl_FragCoord.w);
+    float4 _212 = View.View_SVPositionToTranslatedWorld * float4(gl_FragCoord.xyz, 1.0);
+    float3 _217 = (_212.xyz / float3(_212.w)) - View.View_PreViewTranslation;
+    float4 _225 = Material_Texture2D_0.sample(Material_Texture2D_0Sampler, (float2(in_var_TEXCOORD1[0].x, in_var_TEXCOORD1[0].y) * float2(10.0)), bias(View.View_MaterialTextureMipBias));
+    float2 _228 = (_225.xy * float2(2.0)) - float2(1.0);
+    float3 _245 = normalize(float3x3(in.in_var_TEXCOORD10.xyz, cross(in.in_var_TEXCOORD11.xyz, in.in_var_TEXCOORD10.xyz) * in.in_var_TEXCOORD11.w, in.in_var_TEXCOORD11.xyz) * normalize(((float4(_228, sqrt(fast::clamp(1.0 - dot(_228, _228), 0.0, 1.0)), 1.0).xyz * float3(0.300000011920928955078125, 0.300000011920928955078125, 1.0)) * View.View_NormalOverrideParameter.w) + View.View_NormalOverrideParameter.xyz)) * 1.0;
+    float4 _257 = Material_Texture2D_1.sample(Material_Texture2D_1Sampler, (float2(in_var_TEXCOORD1[0].x, in_var_TEXCOORD1[0].y) * 20.0), bias(View.View_MaterialTextureMipBias));
+    float _259 = mix(0.4000000059604644775390625, 1.0, _257.x);
+    float4 _263 = Material_Texture2D_1.sample(Material_Texture2D_1Sampler, (float2(in_var_TEXCOORD1[0].x, in_var_TEXCOORD1[0].y) * float2(5.0)), bias(View.View_MaterialTextureMipBias));
+    float _288;
+    switch (0u)
+    {
+        default:
+        {
+            if (View.View_ViewToClip[3u].w < 1.0)
+            {
+                _288 = _208.w;
+                break;
+            }
+            else
+            {
+                float _272 = _208.z;
+                _288 = ((_272 * View.View_InvDeviceZToWorldZTransform.x) + View.View_InvDeviceZToWorldZTransform.y) + (1.0 / ((_272 * View.View_InvDeviceZToWorldZTransform.z) - View.View_InvDeviceZToWorldZTransform.w));
+                break;
+            }
+        }
+    }
+    float _292 = fast::min(fast::max((_288 - 24.0) * 0.000666666659526526927947998046875, 0.0), 1.0);
+    float _293 = _263.y;
+    float4 _297 = Material_Texture2D_1.sample(Material_Texture2D_1Sampler, (float2(in_var_TEXCOORD1[0].x, in_var_TEXCOORD1[0].y) * float2(0.5)), bias(View.View_MaterialTextureMipBias));
+    float _299 = _297.y;
+    float3 _312 = fast::clamp(float3(mix(_259, 1.0 - _259, mix(_293, 1.0, _292)) * (mix(0.2949999868869781494140625, 0.660000026226043701171875, mix(_299 + mix(_293, 0.0, _292), 0.5, 0.5)) * 0.5)), float3(0.0), float3(1.0));
+    float _317 = (fast::clamp(fast::min(fast::max(mix(0.0, 0.5, _299) + mix(mix(0.699999988079071044921875, 1.0, _293), 1.0, _292), 0.0), 1.0), 0.0, 1.0) * View.View_RoughnessOverrideParameter.y) + View.View_RoughnessOverrideParameter.x;
+    float _364;
+    float _365;
+    float _366;
+    float3 _367;
+    float3 _368;
+    if ((Primitive.Primitive_DecalReceiverMask > 0.0) && (View.View_ShowDecalsMask > 0.0))
+    {
+        float2 _334 = ((_208.xy / float2(_208.w)) * View.View_ScreenPositionScaleBias.xy) + View.View_ScreenPositionScaleBias.wz;
+        float4 _338 = OpaqueBasePass_DBufferATexture.sample(OpaqueBasePass_DBufferATextureSampler, _334, level(0.0));
+        float4 _341 = OpaqueBasePass_DBufferBTexture.sample(OpaqueBasePass_DBufferATextureSampler, _334, level(0.0));
+        float4 _344 = OpaqueBasePass_DBufferCTexture.sample(OpaqueBasePass_DBufferATextureSampler, _334, level(0.0));
+        float _354 = _344.w;
+        _364 = (_317 * _354) + _344.z;
+        _365 = (0.5 * _354) + _344.y;
+        _366 = _344.x;
+        _367 = (_312 * _338.w) + _338.xyz;
+        _368 = normalize((_245 * _341.w) + ((_341.xyz * 2.0) - float3(1.00392162799835205078125)));
+    }
+    else
+    {
+        _364 = _317;
+        _365 = 0.5;
+        _366 = 0.0;
+        _367 = _312;
+        _368 = _245;
+    }
+    float _417;
+    if (Primitive.Primitive_UseVolumetricLightmapShadowFromStationaryLights > 0.0)
+    {
+        float3 _385 = fast::clamp((_217 * View.View_VolumetricLightmapWorldToUVScale) + View.View_VolumetricLightmapWorldToUVAdd, float3(0.0), float3(0.9900000095367431640625)) * float3(View.View_VolumetricLightmapIndirectionTextureSize);
+        float4 _396 = float4(View_VolumetricLightmapIndirectionTexture.read(uint3(int4(int(_385.x), int(_385.y), int(_385.z), 0).xyz), 0));
+        _417 = View_DirectionalLightShadowingBrickTexture.sample(View_SharedBilinearClampedSampler, ((((_396.xyz * (View.View_VolumetricLightmapBrickSize + 1.0)) + (fract(_385 / float3(_396.w)) * View.View_VolumetricLightmapBrickSize)) + float3(0.5)) * View.View_VolumetricLightmapBrickTexelSize), level(0.0)).x;
+    }
+    else
+    {
+        _417 = 1.0;
+    }
+    float3 _431 = ((_367 - (_367 * _366)) * View.View_DiffuseOverrideParameter.w) + View.View_DiffuseOverrideParameter.xyz;
+    float3 _438 = (mix(float3(0.07999999821186065673828125 * _365), _367, float3(_366)) * View.View_SpecularOverrideParameter.w) + View.View_SpecularOverrideParameter.xyz;
+    bool _441 = View.View_RenderingReflectionCaptureMask != 0.0;
+    float3 _446;
+    if (_441)
+    {
+        _446 = _431 + (_438 * 0.449999988079071044921875);
+    }
+    else
+    {
+        _446 = _431;
+    }
+    float4 _452 = float4(_368, 1.0);
+    float3 _456 = _150;
+    _456.x = dot(View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 0u)], _452);
+    float3 _460 = _456;
+    _460.y = dot(View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 1u)], _452);
+    float3 _464 = _460;
+    _464.z = dot(View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 2u)], _452);
+    float4 _467 = _452.xyzz * _452.yzzx;
+    float3 _471 = _150;
+    _471.x = dot(View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 3u)], _467);
+    float3 _475 = _471;
+    _475.y = dot(View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 4u)], _467);
+    float3 _479 = _475;
+    _479.z = dot(View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 5u)], _467);
+    float3 _513 = fast::max(mix(float3(0.0), Material.Material_VectorExpressions[1].xyz, float3(Material.Material_ScalarExpressions[0].x)), float3(0.0));
+    float3 _539;
+    if (View.View_OutOfBoundsMask > 0.0)
+    {
+        float3 _538;
+        if (any(abs(_217 - Primitive.Primitive_ObjectWorldPositionAndRadius.xyz) > (Primitive.Primitive_ObjectBounds + float3(1.0))))
+        {
+            _538 = mix(float3(1.0, 1.0, 0.0), float3(0.0, 1.0, 1.0), select(float3(0.0), float3(1.0), float3(fract(dot(_217, float3(0.57700002193450927734375)) * 0.00200000009499490261077880859375)) > float3(0.5)));
+        }
+        else
+        {
+            _538 = _513;
+        }
+        _539 = _538;
+    }
+    else
+    {
+        _539 = _513;
+    }
+    float4 _546 = float4(((mix(float3(0.0), _446 + (select(_438, float3(0.0), bool3(_441)) * 0.449999988079071044921875), float3(View.View_UnlitViewmodeMask)) + ((((fast::max(float3(0.0), (_464 + _479) + (View_SkyIrradianceEnvironmentMap._m0[spvStorageBufferCoords(0, spvBufferSizeConstants, float4, 6u)].xyz * ((_368.x * _368.x) - (_368.y * _368.y)))) * View.View_SkyLightColor.xyz) * 1.0) * _446) * fast::max(float3(1.0), ((((((_367 * 2.040400028228759765625) - float3(0.3323999941349029541015625)) * 1.0) + ((_367 * (-4.79510021209716796875)) + float3(0.6417000293731689453125))) * 1.0) + ((_367 * 2.755199909210205078125) + float3(0.69029998779296875))) * 1.0))) + _539) * 1.0, 0.0);
+    float4 _553;
+    if (View.View_bCheckerboardSubsurfaceProfileRendering == 0.0)
+    {
+        float4 _552 = _546;
+        _552.w = 0.0;
+        _553 = _552;
+    }
+    else
+    {
+        _553 = _546;
+    }
+    float2 _557 = (fract(gl_FragCoord.xy * float2(0.0078125)) * 128.0) + float2(-64.3406219482421875, -72.4656219482421875);
+    float3 _565 = (_368 * 0.5) + float3(0.5);
+    float4 _567 = float4(_565.x, _565.y, _565.z, float4(0.0).w);
+    _567.w = Primitive.Primitive_PerObjectGBufferData;
+    float4 _568 = float4(0.0);
+    _568.x = _366;
+    float4 _569 = _568;
+    _569.y = _365;
+    float4 _570 = _569;
+    _570.z = _364;
+    float4 _571 = _570;
+    _571.w = 0.50588238239288330078125;
+    float4 _574 = float4(_367.x, _367.y, _367.z, float4(0.0).w);
+    _574.w = (fract(dot(_557.xyx * _557.xyy, float3(20.390625, 60.703125, 2.4281208515167236328125))) - 0.5) * 0.0039215688593685626983642578125;
+    out.out_var_SV_Target0 = _553 * View.View_PreExposure;
+    out.out_var_SV_Target1 = _567;
+    out.out_var_SV_Target2 = _571;
+    out.out_var_SV_Target3 = _574;
+    out.out_var_SV_Target4 = float4(0.0);
+    out.out_var_SV_Target5 = float4(_417, 1.0, 1.0, 1.0);
+    return out;
+}
+

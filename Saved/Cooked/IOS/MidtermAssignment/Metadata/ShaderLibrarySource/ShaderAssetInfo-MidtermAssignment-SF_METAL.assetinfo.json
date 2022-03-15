@@ -267,6 +267,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "E4C49D721F469F2B1BE349099BA3495D506B6509",
+			"Assets": [
+				"/Game/MyContent/Pictures/Harshit-Modified-3_Mat"
+			]
+		},
+		{
 			"ShaderMapHash": "C32A000156791656D43AB4ED64845A5A9E0570C3",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_StatueGlass"
@@ -477,12 +483,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "083F28A72318AE4E54ABD48A965B194A9E5C7055",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Concrete_Poured"
-			]
-		},
-		{
 			"ShaderMapHash": "288A0450D0607430F5E07EF8793DC9150F7BAA91",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Concrete_Panels"
@@ -552,6 +552,12 @@
 			"ShaderMapHash": "63E21B8561BC0841FBC0879092F550E278E84CCA",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Lamp"
+			]
+		},
+		{
+			"ShaderMapHash": "083F28A72318AE4E54ABD48A965B194A9E5C7055",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Concrete_Poured"
 			]
 		},
 		{

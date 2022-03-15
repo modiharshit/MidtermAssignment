@@ -68,14 +68,14 @@
 		F655ADE853442CC3AB52B84B = {
 			isa = PBXGroup;
 			children = (
-				BE9CF09B19BCE1F1CA414435 /* Config */,
-				20024C59BC6993823CA8DF8A /* Intermediate */,
+				40F8D5BDF927E918DB6C6826 /* Config */,
+				BE9CF09B19BCE1F1CA414435 /* Intermediate */,
 				F519DBC82B7C343B37F88500 /* MidtermAssignment.uproject */,
 				E5BB21D3B4B0DB8B0FAF77D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE9CF09B19BCE1F1CA414435 = {
+		40F8D5BDF927E918DB6C6826 = {
 			isa = PBXGroup;
 			children = (
 				6EF1EB4E659A8BF798C986A9 /* DefaultEditor.ini */,
@@ -85,19 +85,19 @@
 				CEDBC2E8B849B360A801E011 /* DefaultInput.ini */,
 			);
 			name = "Config";
-			path = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Config";
+			path = "/Users/akshay/Documents/MidtermAssignment/Config";
+			sourceTree = "<absolute>";
+		};
+		BE9CF09B19BCE1F1CA414435 = {
+			isa = PBXGroup;
+			children = (
+				20024C59BC6993823CA8DF8A /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/akshay/Documents/MidtermAssignment/Intermediate";
 			sourceTree = "<absolute>";
 		};
 		20024C59BC6993823CA8DF8A = {
-			isa = PBXGroup;
-			children = (
-				CB81C5EDAF72D16A29A1E4DE /* Source */,
-			);
-			name = "Intermediate";
-			path = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate";
-			sourceTree = "<absolute>";
-		};
-		CB81C5EDAF72D16A29A1E4DE = {
 			isa = PBXGroup;
 			children = (
 				F7467CBEC498E0D06675D698 /* MidtermAssignment.Build.cs */,
@@ -105,7 +105,7 @@
 				CF746C0FF4BEC24D1E04EB4B /* MidtermAssignment.Target.cs */,
 			);
 			name = "Source";
-			path = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/Source";
+			path = "/Users/akshay/Documents/MidtermAssignment/Intermediate/Source";
 			sourceTree = "<absolute>";
 		};
 		E5BB21D3B4B0DB8B0FAF77D9 /* Products */ = {
@@ -121,7 +121,7 @@
 /* Begin PBXLegacyTarget section */
 		9A5BCDEE2532206AEFDE6501 /* MidtermAssignment_Build */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/MidtermAssignment.uproject\"";
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/akshay/Documents/MidtermAssignment/MidtermAssignment.uproject\"";
 			buildConfigurationList = F30EDBF5775B1E1F19862D0A /* Build configuration list for PBXLegacyTarget "MidtermAssignment_Build" */;
 			buildPhases = (
 			);
@@ -276,11 +276,11 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
 				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-DebugGame";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
-				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
-				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -305,11 +305,11 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
 				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
-				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
-				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -334,11 +334,11 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
 				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-Shipping";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
-				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
-				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -402,11 +402,11 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
 				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-DebugGame";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
-				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
-				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -431,11 +431,11 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
 				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
-				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
-				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,11 +460,11 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = ca.HarshitMDEV1003.midterm;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64";
 				"PRODUCT_NAME[sdk=macosx*]" = "MidtermAssignment-Mac-Shipping";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Binaries/IOS/Payload";
-				INFOPLIST_FILE = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
-				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MobileGameDesign/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/akshay/Documents/MidtermAssignment/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/akshay/Documents/MidtermAssignment/Intermediate/IOS/MidtermAssignment.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
