@@ -267,12 +267,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "E4C49D721F469F2B1BE349099BA3495D506B6509",
-			"Assets": [
-				"/Game/MyContent/Pictures/Harshit-Modified-3_Mat"
-			]
-		},
-		{
 			"ShaderMapHash": "C32A000156791656D43AB4ED64845A5A9E0570C3",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_StatueGlass"
@@ -704,6 +698,12 @@
 			"ShaderMapHash": "7CE4AE41E7AB4B2F7662EB852EEE7A45AA7BB780",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Rock"
+			]
+		},
+		{
+			"ShaderMapHash": "774A222D76505BDE2EDF39520AE098CEDE33F7F2",
+			"Assets": [
+				"/Game/MyContent/Pictures/GCLogo_Mat"
 			]
 		}
 	]
