@@ -133,9 +133,9 @@
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/Xray",
 				"/Game/MyContent/3DObject/RobotWhite",
-				"/Game/MyContent/3DObject/RobotRed",
-				"/Game/MyContent/3DObject/RobotShoes",
 				"/Game/MyContent/3DObject/RobotVioley",
+				"/Game/MyContent/3DObject/RobotShoes",
+				"/Game/MyContent/3DObject/RobotRed",
 				"/Game/MyContent/3DObject/RobotBody",
 				"/Game/MyContent/3DObject/RobotPant_",
 				"/Game/MyContent/3DObject/RobotBlack"
@@ -226,6 +226,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0E9F66E1AB81610139334BABD462CC70791D8985",
+			"Assets": [
+				"/Game/FirstPerson/Meshes/BaseMaterial"
+			]
+		},
+		{
 			"ShaderMapHash": "FA094B02970E6F1BAD7CDF598DA2232798A08AB0",
 			"Assets": [
 				"/Game/FirstPerson/Character/Materials/M_UE4Man_Body"
@@ -238,12 +244,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "0E9F66E1AB81610139334BABD462CC70791D8985",
-			"Assets": [
-				"/Game/FirstPerson/Meshes/BaseMaterial"
-			]
-		},
-		{
 			"ShaderMapHash": "CA3053612508F6FB991E45697184CC272112B2F7",
 			"Assets": [
 				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
@@ -253,6 +253,18 @@
 			"ShaderMapHash": "15786B40214C349F160719312AEFD9F63231968B",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "774A222D76505BDE2EDF39520AE098CEDE33F7F2",
+			"Assets": [
+				"/Game/MyContent/Pictures/GCLogo_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "C12EF0DAA475208247642CF16669488FD355E05E",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Metal_Rust"
 			]
 		},
 		{
@@ -274,9 +286,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "774A222D76505BDE2EDF39520AE098CEDE33F7F2",
+			"ShaderMapHash": "771F07C0C32F831B80959413A204F29AC1163CEA",
 			"Assets": [
-				"/Game/MyContent/Pictures/GCLogo_Mat"
+				"/Game/MyContent/3DObject/RobotShirt"
 			]
 		},
 		{
@@ -448,12 +460,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "C12EF0DAA475208247642CF16669488FD355E05E",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Metal_Rust"
-			]
-		},
-		{
 			"ShaderMapHash": "E1711A7962395DF4A690017A9EEA4A14F86A96D2",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Metal_Gold"
@@ -487,6 +493,12 @@
 			"ShaderMapHash": "81F800F39D1FD471CFFBB4E34BE05EE612DAA825",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Concrete_Tiles"
+			]
+		},
+		{
+			"ShaderMapHash": "083F28A72318AE4E54ABD48A965B194A9E5C7055",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Concrete_Poured"
 			]
 		},
 		{
@@ -562,12 +574,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "083F28A72318AE4E54ABD48A965B194A9E5C7055",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Concrete_Poured"
-			]
-		},
-		{
 			"ShaderMapHash": "2A0F84A85FF25B8A63069CC88363C4C56912CED5",
 			"Assets": [
 				"/Game/StarterContent/Particles/Materials/M_smoke_subUV"
@@ -605,6 +611,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "97558FBAFE4C67377E1D185E9C348AFD38633496",
+			"Assets": [
+				"/Engine/EditorMeshes/ColorCalibrator/M_ChromeBall"
+			]
+		},
+		{
 			"ShaderMapHash": "6838D6658B36D186A2016AB9BD01E1D3E39C4726",
 			"Assets": [
 				"/Engine/EditorMeshes/ColorCalibrator/M_GreyBall"
@@ -627,12 +639,6 @@
 			"ShaderMapHash": "D7809C39368DFC1CA59964BBE3F49C0E583EDBDA",
 			"Assets": [
 				"/Engine/EditorMeshes/ColorCalibrator/M_ClearCoat"
-			]
-		},
-		{
-			"ShaderMapHash": "97558FBAFE4C67377E1D185E9C348AFD38633496",
-			"Assets": [
-				"/Engine/EditorMeshes/ColorCalibrator/M_ChromeBall"
 			]
 		},
 		{
@@ -714,9 +720,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "771F07C0C32F831B80959413A204F29AC1163CEA",
+			"ShaderMapHash": "A7BE5D0CB1252BCFE92B9954E77BD6B422354BB4",
 			"Assets": [
-				"/Game/MyContent/3DObject/RobotShirt"
+				"/Game/MyContent/Pictures/GCLogoBlue"
 			]
 		}
 	]
