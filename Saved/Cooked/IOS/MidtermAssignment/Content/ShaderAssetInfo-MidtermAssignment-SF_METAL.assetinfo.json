@@ -131,7 +131,14 @@
 		{
 			"ShaderMapHash": "16C7FC6A5D40A1EF5353BE89F2DC60F29B97B195",
 			"Assets": [
-				"/Engine/VREditor/TransformGizmo/Xray"
+				"/Engine/VREditor/TransformGizmo/Xray",
+				"/Game/MyContent/3DObject/RobotWhite",
+				"/Game/MyContent/3DObject/RobotRed",
+				"/Game/MyContent/3DObject/RobotShoes",
+				"/Game/MyContent/3DObject/RobotVioley",
+				"/Game/MyContent/3DObject/RobotBody",
+				"/Game/MyContent/3DObject/RobotPant_",
+				"/Game/MyContent/3DObject/RobotBlack"
 			]
 		},
 		{
@@ -219,15 +226,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "64A494EA350581C22B8A0B6C696775EFBF93F910",
-			"Assets": [
-				"/Game/FPWeapon/Materials/M_FPGun"
-			]
-		},
-		{
 			"ShaderMapHash": "FA094B02970E6F1BAD7CDF598DA2232798A08AB0",
 			"Assets": [
 				"/Game/FirstPerson/Character/Materials/M_UE4Man_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "64A494EA350581C22B8A0B6C696775EFBF93F910",
+			"Assets": [
+				"/Game/FPWeapon/Materials/M_FPGun"
 			]
 		},
 		{
@@ -264,6 +271,12 @@
 			"ShaderMapHash": "7037F8A417C5F796DD238CA8F82B6C15930F1657",
 			"Assets": [
 				"/Game/Geometry/Meshes/CubeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "774A222D76505BDE2EDF39520AE098CEDE33F7F2",
+			"Assets": [
+				"/Game/MyContent/Pictures/GCLogo_Mat"
 			]
 		},
 		{
@@ -592,6 +605,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "6838D6658B36D186A2016AB9BD01E1D3E39C4726",
+			"Assets": [
+				"/Engine/EditorMeshes/ColorCalibrator/M_GreyBall"
+			]
+		},
+		{
+			"ShaderMapHash": "A1A75922C5183082B24B7F6703129CB563AB33A0",
+			"Assets": [
+				"/Engine/EditorMeshes/ColorCalibrator/M_ClearCoatBlack"
+			]
+		},
+		{
 			"ShaderMapHash": "D6FEB324855E2EDFD7F54A9810230AD2F6B93F80",
 			"Assets": [
 				"/Engine/EditorMeshes/ColorCalibrator/M_ColorGrid",
@@ -608,18 +633,6 @@
 			"ShaderMapHash": "97558FBAFE4C67377E1D185E9C348AFD38633496",
 			"Assets": [
 				"/Engine/EditorMeshes/ColorCalibrator/M_ChromeBall"
-			]
-		},
-		{
-			"ShaderMapHash": "6838D6658B36D186A2016AB9BD01E1D3E39C4726",
-			"Assets": [
-				"/Engine/EditorMeshes/ColorCalibrator/M_GreyBall"
-			]
-		},
-		{
-			"ShaderMapHash": "A1A75922C5183082B24B7F6703129CB563AB33A0",
-			"Assets": [
-				"/Engine/EditorMeshes/ColorCalibrator/M_ClearCoatBlack"
 			]
 		},
 		{
@@ -701,9 +714,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "774A222D76505BDE2EDF39520AE098CEDE33F7F2",
+			"ShaderMapHash": "771F07C0C32F831B80959413A204F29AC1163CEA",
 			"Assets": [
-				"/Game/MyContent/Pictures/GCLogo_Mat"
+				"/Game/MyContent/3DObject/RobotShirt"
 			]
 		}
 	]

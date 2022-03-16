@@ -480,7 +480,7 @@ Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphic
 Engine:ConsoleVariables:r.HairStrands.Strands:0=0
 Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
 Game:/Script/UnrealEd.ProjectPackagingSettings:BuildTarget:0=
-Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="/Users/akshay/Documents/Packages/Midterm")
+Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="/Users/akshay/Documents/Packages/Midterm/IOS")
 Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
