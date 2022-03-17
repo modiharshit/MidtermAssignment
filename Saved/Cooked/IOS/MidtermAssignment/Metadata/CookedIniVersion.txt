@@ -274,7 +274,6 @@ Engine:DevOptions.Shaders:bLogJobCompletionTimes:0=False
 Engine:DevOptions.Shaders:ProcessGameThreadTargetTime:0=.01
 Engine:DevOptions.Shaders:WorkerTimeToLive:0=20
 Engine:DevOptions.Shaders:BuildWorkerTimeToLive:0=1200
-Engine:DevOptions.Shaders:WorkerProcessPriority:0=-1
 Engine:DevOptions.Shaders:bForceUseSCWMemoryPressureLimits:0=False
 Engine:LogFiles:PurgeLogsDays:0=5
 Engine:LogFiles:MaxLogFilesOnDisk:0=10
@@ -367,9 +366,6 @@ Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bSupportsMetal:0=True
 Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bCookPVRTCTextures:0=True
 Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bCookASTCTextures:0=False
 Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bSupportsMetalMRT:0=False
-Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:RemoteServerName:0=
-Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:RSyncUsername:0=
-Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:SSHPrivateKeyOverridePath:0=
 Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:UseFastIntrinsics:0=False
 Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:ForceFloats:0=False
 Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:EnableMathOptimisations:0=True
@@ -480,7 +476,7 @@ Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphic
 Engine:ConsoleVariables:r.HairStrands.Strands:0=0
 Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
 Game:/Script/UnrealEd.ProjectPackagingSettings:BuildTarget:0=
-Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="/Users/akshay/Documents/Packages/Midterm/IOS")
+Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="/Users/akshay/Documents/Packages/Midterm")
 Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
